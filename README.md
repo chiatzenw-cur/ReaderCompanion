@@ -196,13 +196,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [React](https://reactjs.org/) - UI framework
 - [Tailwind CSS](https://tailwindcss.com/) - Styling framework
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check existing [Issues](https://github.com/yourusername/reader-companion/issues)
-2. Create a new issue with detailed information
-3. Join our community discussions
 
 ---
 Vibe coded with Claude code
