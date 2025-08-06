@@ -204,15 +204,5 @@ If you encounter any issues or have questions:
 2. Create a new issue with detailed information
 3. Join our community discussions
 
-## 🚧 Roadmap
-
-- [ ] Plugin system for custom AI providers
-- [ ] PDF annotation support
-- [ ] Multiple document tabs
-- [ ] Advanced search functionality
-- [ ] Collaborative features
-- [ ] Mobile companion app
-
 ---
-
-Made with ❤️ by developers who love reading and AI
+Vibe coded with Claude code
