@@ -190,7 +190,10 @@ src/
 - [React](https://reactjs.org/) - UI框架
 - [Tailwind CSS](https://tailwindcss.com/) - 样式框架
 
+### Screenshots
 
+![](./readme_pics/ss1.png)
+![](./readme_pics/ss2.png)
 ---
 
 Vibe Coded with Claude code

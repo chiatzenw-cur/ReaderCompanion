@@ -196,6 +196,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [React](https://reactjs.org/) - UI framework
 - [Tailwind CSS](https://tailwindcss.com/) - Styling framework
 
+### Screenshots
 
+!()[./readme_pics/ss1.png]
+!()[./readme_pics/ss2.png]
 ---
 Vibe coded with Claude code
