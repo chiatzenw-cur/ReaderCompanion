@@ -1,0 +1,53 @@
+{
+  "name": "reader-companion",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-powered PDF reader companion app",
+  "author": "Reader Companion Team",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run copy-worker && vite",
+    "build": "npm run copy-worker && tsc && vite build && electron-builder",
+    "build:win": "npm run build",
+    "build:mac": "npm run build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "electron:dev": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\"",
+    "type-check": "tsc --noEmit",
+    "copy-worker": "node copy-pdf-worker.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "pdfjs-dist": "^4.0.269",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "prism-react-renderer": "^2.3.1",
+    "lucide-react": "^0.263.1",
+    "tesseract.js": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@types/react-syntax-highlighter": "^15.5.7",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "electron": "^30.0.1",
+    "electron-builder": "^24.13.3",
+    "vite-plugin-electron": "^0.28.6",
+    "vite-plugin-electron-renderer": "^0.14.5",
+    "vite-plugin-static-copy": "^1.0.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "concurrently": "^8.2.0",
+    "wait-on": "^7.0.1"
+  },
+  "main": "dist-electron/main.js"
+}
